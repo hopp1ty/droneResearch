@@ -134,8 +134,7 @@ Download everything needed to run `fly.py` into the workspace:
 
 ```bash
 cd ~/dronestuff
-# TODO: replace with your repo URL
-git clone https://github.com/<your-username>/<your-repo>.git drone-research
+git clone https://github.com/hopp1ty/droneResearch.git drone-research
 ```
 
 Expected layout:

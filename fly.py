@@ -26,7 +26,7 @@ async def run():
     await drone.action.set_takeoff_altitude(5.0)
     await drone.action.arm()
     await drone.action.takeoff()
-    await drone.action.goto_location(latitude + 5, longitude + 5, absAltitude + 5, relAltitude)
+    await drone.action.goto_location(*spotA)
     await asyncio.sleep(10)
     print(f"Going to {spotB}")
     await drone.action.goto_location(*spotB)

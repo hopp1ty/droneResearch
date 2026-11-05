@@ -201,7 +201,8 @@ Then change the `data: "..."` value in the follow command to the model you want,
 
 
 ## 12. To-Do List
-Telemetry GPS spoofing
-Code Injection
-Hardware? Dunno how in Gazebo
-Other Drones
+
+|Telemetry GPS spoofing|
+|Code Injection|
+|Hardware? Dunno how in Gazebo|
+|Other Drones|

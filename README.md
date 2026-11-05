@@ -16,7 +16,7 @@ This page walks through the full setup: Ubuntu, PX4 Autopilot, GPU rendering, MA
 9. [Run a flight](#9-run-a-flight)
 10. [Following the drone in Gazebo](#10-following-the-drone-in-gazebo)
 11. [Troubleshooting](#11-troubleshooting)
-12. [To-Do List](#12-To-Do List)
+12. [To-Do List](#12-To-Do-List)
 
 ---
 

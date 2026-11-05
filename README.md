@@ -16,8 +16,9 @@ This page walks through the full setup: Ubuntu, PX4 Autopilot, GPU rendering, MA
 9. [Run a flight](#9-run-a-flight)
 10. [Following the drone in Gazebo](#10-following-the-drone-in-gazebo)
 11. [Troubleshooting](#11-troubleshooting)
-12. [To-Do List](#12-To-Do-List)
-13. [Reference Papers](#13-Reference-Papers)
+12. [Useful Commands](#12-Commands)
+13. [To-Do List](#13-To-Do-List)
+14. [Reference Papers](#14-Reference-Papers)
 
 ---
 
@@ -201,7 +202,18 @@ Then change the `data: "..."` value in the follow command to the model you want,
 | Follow command times out | Wrong model name | Run `gz model --list` and use the exact name |
 
 
-## 12. To-Do List
+## 12. Useful Commands
+
+All of these are generally used with drone.action.____
+| Command | What it does |
+|---|---|
+| terminate() | Terminates drone mid flight |
+| goto_location() | Sends drone to specified coordinates |
+| reboot() | Reboots drone components, probably useful for messing with a drone |
+
+
+
+## 13. To-Do List
 | Goal | Finished |
 |---|---|
 | Telemetry GPS spoofing | In Progress |
@@ -210,5 +222,6 @@ Then change the `data: "..."` value in the follow command to the model you want,
 | Other Drones | In Progress |
 
 
-## 13. Reference Papers
+## 14. Reference Papers/Websites
 https://arxiv.org/pdf/2604.16699v1
+https://mavsdk.mavlink.io/main/en/cpp/api_reference

@@ -17,6 +17,7 @@ This page walks through the full setup: Ubuntu, PX4 Autopilot, GPU rendering, MA
 10. [Following the drone in Gazebo](#10-following-the-drone-in-gazebo)
 11. [Troubleshooting](#11-troubleshooting)
 12. [To-Do List](#12-To-Do-List)
+13. [Reference Papers](#13-Reference-Papers)
 
 ---
 
@@ -207,3 +208,7 @@ Then change the `data: "..."` value in the follow command to the model you want,
 | Code Injection | In Progress |
 | Hardware? Dunno how in Gazebo | In Progress |
 | Other Drones | In Progress |
+
+
+## 13. Reference Papers
+https://arxiv.org/pdf/2604.16699v1

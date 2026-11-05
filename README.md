@@ -16,6 +16,7 @@ This page walks through the full setup: Ubuntu, PX4 Autopilot, GPU rendering, MA
 9. [Run a flight](#9-run-a-flight)
 10. [Following the drone in Gazebo](#10-following-the-drone-in-gazebo)
 11. [Troubleshooting](#11-troubleshooting)
+12. [To-Do List](#12-To-Do List)
 
 ---
 
@@ -197,3 +198,10 @@ Then change the `data: "..."` value in the follow command to the model you want,
 | `externally-managed-environment` error | System Python is protected | Activate the venv first |
 | `make px4_sitl` fails after `ubuntu.sh` | Environment not reloaded | Restart your machine / WSL, then rebuild |
 | Follow command times out | Wrong model name | Run `gz model --list` and use the exact name |
+
+
+## 12. To-Do List
+Telemetry GPS spoofing
+Code Injection
+Hardware? Dunno how in Gazebo
+Other Drones
